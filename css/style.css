@@ -1,0 +1,60 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --color-primary: hsl(216, 50%, 16%);
+  --color-secondary: hsl(178, 100%, 50%);
+  --color-background: hsl(217, 54%, 11%);
+  --color-paragraph: hsl(215, 51%, 70%);
+  --color-line: hsl(215, 32%, 27%);
+  --color-accent: hsl(0, 0%, 100%);
+
+  --fw-heading: 600;
+  --fw-value: 400;
+  --fw-paragraph: 300;
+
+  --ff-primary: "Outfit", sans-serif;
+}
+
+/* typography */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-paragraph);
+  font-size: 1.8rem;
+  color: var(--color-paragraph);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: var(--fw-heading);
+  color: var(--color-accent);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+/* image-hover */
+
+.nft-card__image {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+}
