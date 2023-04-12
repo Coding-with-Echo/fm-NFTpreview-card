@@ -27,16 +27,44 @@
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body>
-    <div class="nft-card__image">
-      <img
-        class="image__equilibrium"
-        src="./images/image-equilibrium.jpg"
-        alt="a cube inside the equikibrium"
-      />
-      <div class="image__overlay">
-        <img src="./images/icon-view.svg" alt="" />
-      </div>
-    </div>
+    <main>
+      <article class="nft-card">
+        <div class="nft-card__image">
+          <img
+            class="image__equilibrium"
+            src="./images/image-equilibrium.jpg"
+            alt="a cube inside the equikibrium"
+          />
+          <div class="image__overlay">
+            <img src="./images/icon-view.svg" alt="" />
+          </div>
+        </div>
+        <div class="nft-card__content">
+          <h1 class="nft-card__name"><a href="#">Equiliblrium #3429</a></h1>
+
+          <p class="nft-card__description">
+            Our Equiibrium collection promotes balance and calm.
+          </p>
+          <div class="nft-card__value">
+            <span data-icon="ETH" class="nft-card__price"> 0.041 ETH</span>
+            <span data-icon="clock" class="nft-card__duration"
+              >3 days left</span
+            >
+          </div>
+          <footer class="card__footer">
+            <img
+              class="creator__avatar"
+              src="./images/image-avatar.png"
+              alt=""
+            />
+            <span class="creator__text"
+              >Creation of
+              <a href="#" class="creator__name">Jules Wyvern</a></span
+            >
+          </footer>
+        </div>
+      </article>
+    </main>
 
     <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
